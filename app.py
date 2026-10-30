@@ -11,7 +11,7 @@ except ImportError:
     pass
 
 # Model names change over time. Check https://console.groq.com/docs/models
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 
 st.set_page_config(
     page_title="AI Learning Roadmap Generator",
